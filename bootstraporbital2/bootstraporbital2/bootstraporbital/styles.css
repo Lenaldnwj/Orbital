@@ -1,0 +1,948 @@
+
+
+/* CSS property of the nus map picture*/
+#nusmap{
+    z-index: -1;
+    background-image: url(nus.jpg);
+/*    background-attachment:fixed;*/
+    width: 2500px;
+    height: 2411px;
+/*    position: relative;*/
+
+}
+
+/*Pop up font size*/
+span.showBodyDisplay1{
+    font-size: 16px;
+    font-weight: normal;
+    color: #444;
+    line-height: 18px;
+}
+
+
+
+/*This is a comment. Popup1 @ Foodclique*/
+#nusmap.a.popup1{
+     left: 245px; top: 800px;
+}
+
+a.popup1{
+    position: relative;
+    left: 300px; top: 880px;
+    z-index: 20;
+    color: #000;
+    text-decoration: none;
+}
+
+a.popup1:hover{
+    z-index: 30;
+}
+
+a.popup1 span.showDisplay1{
+    display: none;
+}
+
+a.popup1:hover span.showDisplay1{
+    z-index: 50;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    
+    line-height: 25px;
+    
+    top: 0px;
+    left: 25px;
+    width:auto;
+    padding: 10px;
+    
+    border: 1px solid #666666;
+    background-color:blanchedalmond;
+    
+    color: #000000;
+    text-align: left;
+    
+}
+/*This is a comment. Popup2 @ TechnoEdge*/
+#nusmap.a.popup2{
+     left: 245px; top: 800px;
+}
+
+a.popup2{
+    position: relative;
+    left: 390px; top: 1630px;
+    z-index: 20;
+    color: #000;
+    text-decoration: none;
+}
+
+a.popup2:hover{
+    z-index: 30;
+}
+
+a.popup2 span.showDisplay1{
+    display: none;
+}
+
+a.popup2:hover span.showDisplay1{
+    z-index: 50;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    
+    line-height: 25px;
+    
+    top: 0px;
+    left: 25px;
+    width:auto;
+    padding: 10px;
+    
+    border: 1px solid #666666;
+    background-color:blanchedalmond;
+    
+    color: #000000;
+    text-align: left;
+    
+}
+
+/*This is a comment. The Terrace aka biz computing canteen*/
+#nusmap.a.popup3{
+     left: 245px; top: 800px;
+}
+
+a.popup3{
+    position: relative;
+    left: 755px; top: 1895px;
+    z-index: 20;
+    color: #000;
+    text-decoration: none;
+}
+
+a.popup3:hover{
+    z-index: 30;
+}
+
+a.popup3 span.showDisplay1{
+    display: none;
+}
+
+a.popup3:hover span.showDisplay1{
+    z-index: 50;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    
+    line-height: 25px;
+    
+    top: 0px;
+    left: 25px;
+    width:auto;
+    padding: 10px;
+    
+    border: 1px solid #666666;
+    background-color:blanchedalmond;
+    
+    color: #000000;
+    text-align: left;
+    
+}
+
+/*This is a comment. The Frontier aka science canteen*/
+#nusmap.a.popup4{
+     left: 245px; top: 800px;
+}
+
+a.popup4{
+    position: relative;
+    left: 1220px; top: 1480px;
+    z-index: 20;
+    color: #000;
+    text-decoration: none;
+}
+
+a.popup4:hover{
+    z-index: 30;
+}
+
+a.popup4 span.showDisplay1{
+    display: none;
+}
+
+a.popup4:hover span.showDisplay1{
+    z-index: 50;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    
+    line-height: 25px;
+    
+    top: 0px;
+    left: 25px;
+    width:auto;
+    padding: 10px;
+    
+    border: 1px solid #666666;
+    background-color:blanchedalmond;
+    
+    color: #000000;
+    text-align: left;
+    
+}
+
+/*This is a comment. Koufu foodcourt at UTown town plaza*/
+#nusmap.a.popup5{
+     left: 245px; top: 800px;
+}
+
+a.popup5{
+    position: relative;
+    left: 390px; top: 945px;
+    z-index: 20;
+    color: #000;
+    text-decoration: none;
+}
+
+a.popup5:hover{
+    z-index: 30;
+}
+
+a.popup5 span.showDisplay1{
+    display: none;
+}
+
+a.popup5:hover span.showDisplay1{
+    z-index: 50;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    
+    line-height: 25px;
+    
+    top: 0px;
+    left: 25px;
+    width:auto;
+    padding: 10px;
+    
+    border: 1px solid #666666;
+    background-color:blanchedalmond;
+    
+    color: #000000;
+    text-align: left;
+    
+}
+
+/*This is a comment. Central Square at YIH*/
+#nusmap.a.popup6{
+     left: 245px; top: 800px;
+}
+
+a.popup6{
+    position: relative;
+    left: 560px; top: 1455px;
+    z-index: 20;
+    color: #000;
+    text-decoration: none;
+}
+
+a.popup6:hover{
+    z-index: 30;
+}
+
+a.popup6 span.showDisplay1{
+    display: none;
+}
+
+a.popup6:hover span.showDisplay1{
+    z-index: 50;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    
+    line-height: 25px;
+    
+    top: 0px;
+    left: 25px;
+    width:auto;
+    padding: 10px;
+    
+    border: 1px solid #666666;
+    background-color:blanchedalmond;
+    
+    color: #000000;
+    text-align: left;
+    
+}
+
+/*This is a comment. The Deck, AKA Arts canteen*/
+#nusmap.a.popup7{
+     left: 245px; top: 800px;
+}
+
+a.popup7{
+    position: relative;
+    left: 480px; top: 1910px;
+    z-index: 20;
+    color: #000;
+    text-decoration: none;
+}
+
+a.popup7:hover{
+    z-index: 30;
+}
+
+a.popup7 span.showDisplay1{
+    display: none;
+}
+
+a.popup7:hover span.showDisplay1{
+    z-index: 50;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    
+    line-height: 25px;
+    
+    top: 0px;
+    left: 25px;
+    width:auto;
+    padding: 10px;
+    
+    border: 1px solid #666666;
+    background-color:blanchedalmond;
+    
+    color: #000000;
+    text-align: left;
+    
+}
+
+/*This is a comment. Green Marker 1 at MacDonalds*/
+#nusmap.a.popup8{
+     left: 200px; top: 800px;
+}
+
+a.popup8{
+    position: relative;
+    left: 195px; top: 1625px;
+    z-index: 20;
+    color: #000;
+    text-decoration: none;
+}
+
+a.popup8:hover{
+    z-index: 30;
+}
+
+a.popup8 span.showDisplay1{
+    display: none;
+}
+
+a.popup8:hover span.showDisplay1{
+    z-index: 50;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    
+    line-height: 25px;
+    
+    top: 0px;
+    left: 25px;
+    width:auto;
+    padding: 10px;
+    
+    border: 1px solid #666666;
+    background-color:blanchedalmond;
+    
+    color: #000000;
+    text-align: left;
+    
+}
+
+
+/*This is a comment. Green Marker 2 at Maki-San*/
+#nusmap.a.popup9{
+     left: 200px; top: 800px;
+}
+
+a.popup9{
+    position: relative;
+    left: 1200px; top: 1465px;
+    z-index: 20;
+    color: #000;
+    text-decoration: none;
+}
+
+a.popup9:hover{
+    z-index: 30;
+}
+
+a.popup9 span.showDisplay1{
+    display: none;
+}
+
+a.popup9:hover span.showDisplay1{
+    z-index: 50;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    
+    line-height: 25px;
+    
+    top: 0px;
+    left: 25px;
+    width:auto;
+    padding: 10px;
+    
+    border: 1px solid #666666;
+    background-color:blanchedalmond;
+    
+    color: #000000;
+    text-align: left;
+    
+}
+
+
+/*This is a comment. Green Marker 3 at Platypus Food Bar*/
+#nusmap.a.popup10{
+     left: 200px; top: 800px;
+}
+
+a.popup10{
+    position: relative;
+    left: 1135px; top: 1460px;
+    z-index: 20;
+    color: #000;
+    text-decoration: none;
+}
+
+a.popup10:hover{
+    z-index: 30;
+}
+
+a.popup10 span.showDisplay1{
+    display: none;
+}
+
+a.popup10:hover span.showDisplay1{
+    z-index: 50;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    
+    line-height: 25px;
+    
+    top: 0px;
+    left: 25px;
+    width:auto;
+    padding: 10px;
+    
+    border: 1px solid #666666;
+    background-color:blanchedalmond;
+    
+    color: #000000;
+    text-align: left;
+    
+}
+
+/*This is a comment. Green Marker 4 at Hwang’s Korean Restaurant*/
+#nusmap.a.popup11{
+     left: 200px; top: 800px;
+}
+
+a.popup11{
+    position: relative;
+    left: 290px; top: 910px;
+    z-index: 20;
+    color: #000;
+    text-decoration: none;
+}
+
+a.popup11:hover{
+    z-index: 30;
+}
+
+a.popup11 span.showDisplay1{
+    display: none;
+}
+
+a.popup11:hover span.showDisplay1{
+    z-index: 50;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    
+    line-height: 25px;
+    
+    top: 0px;
+    left: 25px;
+    width:auto;
+    padding: 10px;
+    
+    border: 1px solid #666666;
+    background-color:blanchedalmond;
+    
+    color: #000000;
+    text-align: left;
+    
+}
+
+/*This is a comment. Green Marker 5 at Starbucks*/
+#nusmap.a.popup17{
+     left: 200px; top: 800px;
+}
+
+a.popup17{
+    position: relative;
+    left: 38px; top: 770px;
+    z-index: 20;
+    color: #000;
+    text-decoration: none;
+}
+
+a.popup17:hover{
+    z-index: 30;
+}
+
+a.popup17 span.showDisplay1{
+    display: none;
+}
+
+a.popup17:hover span.showDisplay1{
+    z-index: 50;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    
+    line-height: 25px;
+    
+    top: 0px;
+    left: 25px;
+    width:auto;
+    padding: 10px;
+    
+    border: 1px solid #666666;
+    background-color:blanchedalmond;
+    
+    color: #000000;
+    text-align: left;
+    
+}
+
+/*This is a comment. Green Marker 6 at Subway UTown*/
+#nusmap.a.popup18{
+     left: 200px; top: 800px;
+}
+
+a.popup18{
+    position: relative;
+    left: 235px; top: 960px;
+    z-index: 20;
+    color: #000;
+    text-decoration: none;
+}
+
+a.popup18:hover{
+    z-index: 30;
+}
+
+a.popup18 span.showDisplay1{
+    display: none;
+}
+
+a.popup18:hover span.showDisplay1{
+    z-index: 50;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    
+    line-height: 25px;
+    
+    top: 0px;
+    left: 25px;
+    width:auto;
+    padding: 10px;
+    
+    border: 1px solid #666666;
+    background-color:blanchedalmond;
+    
+    color: #000000;
+    text-align: left;
+    
+}
+
+/*This is a comment. Green Marker 7 at Subway YIH*/
+#nusmap.a.popup19{
+     left: 200px; top: 800px;
+}
+
+a.popup19{
+    position: relative;
+    left: 400px; top: 1430px;
+    z-index: 20;
+    color: #000;
+    text-decoration: none;
+}
+
+a.popup19:hover{
+    z-index: 30;
+}
+
+a.popup19 span.showDisplay1{
+    display: none;
+}
+
+a.popup19:hover span.showDisplay1{
+    z-index: 50;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    
+    line-height: 25px;
+    
+    top: 0px;
+    left: 25px;
+    width:auto;
+    padding: 10px;
+    
+    border: 1px solid #666666;
+    background-color:blanchedalmond;
+    
+    color: #000000;
+    text-align: left;
+    
+}
+
+/*This is a comment. Green Marker 8 at The Spread*/
+#nusmap.a.popup20{
+     left: 200px; top: 800px;
+}
+
+a.popup20{
+    position: relative;
+    left: 510px; top: 2080px;
+    z-index: 20;
+    color: #000;
+    text-decoration: none;
+}
+
+a.popup20:hover{
+    z-index: 30;
+}
+
+a.popup20 span.showDisplay1{
+    display: none;
+}
+
+a.popup20:hover span.showDisplay1{
+    z-index: 50;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    
+    line-height: 25px;
+    
+    top: 0px;
+    left: 25px;
+    width:auto;
+    padding: 10px;
+    
+    border: 1px solid #666666;
+    background-color:blanchedalmond;
+    
+    color: #000000;
+    text-align: left;
+    
+}
+
+/*This is a comment. Green Marker 9 @ The good news cafe*/
+#nusmap.a.popup21{
+     left: 200px; top: 800px;
+}
+
+a.popup21{
+    position: relative;
+    left: 14px; top: 1930px;
+    z-index: 20;
+    color: #000;
+    text-decoration: none;
+}
+
+a.popup21:hover{
+    z-index: 30;
+}
+
+a.popup21 span.showDisplay1{
+    display: none;
+}
+
+a.popup21:hover span.showDisplay1{
+    z-index: 50;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    
+    line-height: 25px;
+    
+    top: 0px;
+    left: 25px;
+    width:auto;
+    padding: 10px;
+    
+    border: 1px solid #666666;
+    background-color:blanchedalmond;
+    
+    color: #000000;
+    text-align: left;
+    
+}
+
+/*This is a comment. Green Marker 10 at Sapore Italian Restaurant*/
+#nusmap.a.popup22{
+     left: 200px; top: 800px;
+}
+
+a.popup22{
+    position: relative;
+    left: 110px; top: 880px;
+    z-index: 20;
+    color: #000;
+    text-decoration: none;
+}
+
+a.popup22:hover{
+    z-index: 30;
+}
+
+a.popup22 span.showDisplay1{
+    display: none;
+}
+
+a.popup22:hover span.showDisplay1{
+    z-index: 50;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    
+    line-height: 25px;
+    
+    top: 0px;
+    left: 25px;
+    width:auto;
+    padding: 10px;
+    
+    border: 1px solid #666666;
+    background-color:blanchedalmond;
+    
+    color: #000000;
+    text-align: left;
+    
+}
+
+/*This is a comment. Bus Marker 1 at utown*/
+#nusmap.a.popup12{
+     left: 200px; top: 800px;
+}
+
+a.popup12{
+    position: relative;
+    left: 210px; top: 925px;
+    z-index: 20;
+    color: #000;
+    text-decoration: none;
+}
+
+a.popup12:hover{
+    z-index: 30;
+}
+
+a.popup12 span.showDisplay1{
+    display: none;
+}
+
+a.popup12:hover span.showDisplay1{
+    z-index: 50;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    
+    line-height: 25px;
+    
+    top: 0px;
+    left: 25px;
+    width:auto;
+    padding: 10px;
+    
+    border: 1px solid #666666;
+    background-color:blanchedalmond;
+    
+    color: #000000;
+    text-align: left;
+    
+}
+
+/*This is a comment. Bus Marker 2 at YIH*/
+#nusmap.a.popup13{
+     left: 200px; top: 800px;
+}
+
+a.popup13{
+    position: relative;
+    left: 170px; top: 1425px;
+    z-index: 20;
+    color: #000;
+    text-decoration: none;
+}
+
+a.popup13:hover{
+    z-index: 30;
+}
+
+a.popup13 span.showDisplay1{
+    display: none;
+}
+
+a.popup13:hover span.showDisplay1{
+    z-index: 50;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    
+    line-height: 25px;
+    
+    top: 0px;
+    left: 25px;
+    width:auto;
+    padding: 10px;
+    
+    border: 1px solid #666666;
+    background-color:blanchedalmond;
+    
+    color: #000000;
+    text-align: left;
+    
+}
+
+/*This is a comment. Bus Marker 3 at Faculty of Science*/
+#nusmap.a.popup14{
+     left: 200px; top: 800px;
+}
+
+a.popup14{
+    position: relative;
+    left: 805px; top: 1340px;
+    z-index: 20;
+    color: #000;
+    text-decoration: none;
+}
+
+a.popup14:hover{
+    z-index: 30;
+}
+
+a.popup14 span.showDisplay1{
+    display: none;
+}
+
+a.popup14:hover span.showDisplay1{
+    z-index: 50;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    
+    line-height: 25px;
+    
+    top: 0px;
+    left: 25px;
+    width:auto;
+    padding: 10px;
+    
+    border: 1px solid #666666;
+    background-color:blanchedalmond;
+    
+    color: #000000;
+    text-align: left;
+    
+}
+
+/*This is a comment. Bus Marker 4 at SOC*/
+#nusmap.a.popup15{
+     left: 200px; top: 800px;
+}
+
+a.popup15{
+    position: absolute;
+    left: 770px; top: 2010px;
+    z-index: 20;
+    color: #000;
+    text-decoration: none;
+}
+
+a.popup15:hover{
+    z-index: 30;
+}
+
+a.popup15 span.showDisplay1{
+    display: none;
+}
+
+a.popup15:hover span.showDisplay1{
+    z-index: 50;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    
+    line-height: 25px;
+    
+    top: 0px;
+    left: 25px;
+    width:auto;
+    padding: 10px;
+    
+    border: 1px solid #666666;
+    background-color:blanchedalmond;
+    
+    color: #000000;
+    text-align: left;
+    
+}
+
+/*This is a comment. Bus Marker 5 at COMPUTER CENTRE*/
+#nusmap.a.popup16{
+     left: 200px; top: 800px;
+}
+
+a.popup16{
+    position: absolute;
+    left: 565px; top: 1715px;
+    z-index: 20;
+    color: #000;
+    text-decoration: none;
+}
+
+a.popup16:hover{
+    z-index: 30;
+}
+
+a.popup16 span.showDisplay1{
+    display: none;
+}
+
+a.popup16:hover span.showDisplay1{
+    z-index: 50;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    
+    line-height: 25px;
+    
+    top: 0px;
+    left: 25px;
+    width:auto;
+    padding: 10px;
+    
+    border: 1px solid #666666;
+    background-color:blanchedalmond;
+    
+    color: #000000;
+    text-align: left;
+    
+}
+

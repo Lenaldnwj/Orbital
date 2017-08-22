@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    
+    <!--    Our local files CSS-->
+<!--      main css file-->
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+<!--  Blinking animation for normal pics    -->
+    <link rel="stylesheet" type="text/css" href="blinkingCSSNormal.css"/>
+<!-- Blinking animation for legend pics   -->
+    <link rel="stylesheet" type="text/css" href="blinkingCSSLegend.css"/>
+      
+    </head>
+  <body>
+    <title> NUS Interactive Food Map </title>
+
+      <h1>
+          <a href="http://www.nus.edu.sg/oca/Retail-And-Dining/Food-and-Beverages.html"
+
+             onmouseover= "this.style.color='blue';"
+             onmouseout = "this.style.color= 'orange';" 
+
+             style="color: orange"
+             ><font size="50">NUS Interactive Food Map</font></a>
+
+      </h1>
+
+      
+<!--      Collapsible Group  -->
+     <div id="accordion" role="tablist">
+         
+<!-- INFORMATION TAB           -->
+  <div class="card">
+    <span class="border border-warning">
+      <div class="card-header" role="tab" id="headingOne">
+      <h5 class="mb-0">
+        <a data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Information
+        </a>
+      </h5>
+    </div>
+      </span>
+<!--Changed class="collapse show" to class="collapse"-->
+    <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+      <div class="card-body">
+          <p>With this interactive map, users will be able to view the various canteens and food outlets in NUS.</p>
+          <p>There are various map markers that are scattered throughout the map. Users can hover their cursor over those map markers to see more information. The locations of the food outlets can be toggled on and off.</p>
+          <p>Clicking on the NUS Interactive Food Map title at the top of the page will bring you to the food and beverages website.</p>
+      </div>
+    </div>
+  </div>
+<!--      MAP LEGENDS TAB    -->
+  <div class="card">
+      <span class="border border-warning">
+    <div class="card-header" role="tab" id="headingTwo">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Map Legends
+        </a>
+      </h5>
+    </div>
+      </span>
+    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" >
+      <div class="card-body">
+        <p><b>Legend:</b></p>
+    <ul>
+        <li>Location of bus stops
+            <img src="busstopmarkerLegend.png" alt="food marker" style="width:42px;height:42px;">
+        </li>
+        
+        <br>
+        
+        <li>Location of canteens 
+            <img src="location2Legend.png" alt="food marker" style="width:42px;height:42px;">
+        </li>
+        
+        <br>
+        
+        <li>Location of additional non-canteen outlets
+            <img src="location3Legend.png" alt="food marker" style="width:42px;height:42px;">
+        </li>
+        
+    </ul>
+      </div>
+    </div>
+  </div>
+         
+         
+    <!--      NUS MAP            -->   
+
+  <div class="card">
+    <span class="border border-warning">
+      <div class="card-header" role="tab" id="headingThree">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          NUS Interactive Food Map
+        </a>
+      </h5>
+    </div>
+      </span>
+    <div id="collapseThree" class="collapse show" role="tabpanel" aria-labelledby="headingThree" >
+      <div class="card-body">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Toggle Legends On/Off
+  </button>
+<!--     BLINKING BUTTON CANT WORK
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+    Toggle Blinking On/Off
+  </button>
+          
+          <span class="collapse" id="collapseExample2">
+          <link rel="stylesheet" type="text/css" href="blinkingCSSNormal.css"/>
+          </span>     
+-->
+          
+    <span class="collapse" id="collapseExample">
+       
+    <!--This is a comment. Popup1 @ foodclique-->
+    <a class="popup1">
+        <img src="location2.png" width="20" height="50" alt="symbol">
+        <span class="showDisplay1">
+        Flavours@UTown
+            <img src="foodclique2.png" width="230" height="230">
+            <span class="showBodyDisplay1">
+                <u>Location</u>: Stephen Riady Centre, UTown<br>
+                <u>Shuttle Bus</u>: D1/2, UT-CLB, UT-FoS<br>
+                <br>
+                <u>Operation hours</u>: Daily 7.30am to 10.00pm<br>         
+                
+                <br>
+                <u>Stalls</u>:<br>
+                
+                <ul>
+                    <li>Astons</li>
+                    <li>Fishball Story</li>
+                    <li>Ayam Penyet</li>
+                    <li>Ban Mian</li>
+                    <li>Nasi Padang</li>
+                    <li>Indian Cuisine</li>
+                    <li>Mini Wok</li>
+                    <li>Japanese Cuisine</li>
+                    <li>Drinks & Snacks</li>
+                </ul> 
+            </span>
+        </span>
+    </a>
+    
+    <!--This is a comment. Popup2 @ TechnoEdge-->
+    <a class="popup2">
+        <img src="location2.png" width="20" height="50" alt="symbol">
+        <span class="showDisplay1">
+        TechnoEdge
+            <img src="technoedge.jpg" width="230" height="230">
+            <span class="showBodyDisplay1">
+                <u>Location</u>: 
+                Faculty of Engineering<br>
+                <u>Shuttle Bus</u>: A1/2/E, B, C, D1/2<br>
+                <br>
+                <u>Operation hours</u>:<br>
+                Mon-Fri 7.30am to 4.00pm<br>
+                Sat 7.30am to 3.00pm<br>
+                <br>
+                <u>Stalls</u>:<br>
+                
+                <ul>
+                    <li>Houhang Fish Ball Minced Meat Noodles</li>
+                    <li>Freshly Made Soya Milk</li>
+                    <li>Indian Food</li>
+                    <li>Western Food</li>
+                    <li>Chicken Rice</li>
+                    <li>Chinese Cooked Food</li>
+                    <li>Indonesian Panggang</li>
+                    <li>Kaneda Japanese Cuisine</li>
+                    <li>Drinks and Snacks</li>
+                </ul> 
+                      
+                
+            </span>
+        </span>
+    </a>
+    
+    <!--This is a comment. Popup3 @ The Terrace(biz computing canteen)-->
+    <a class="popup3">
+        <img src="location2.png" width="20" height="50" alt="symbol">
+        <span class="showDisplay1">
+        The Terrace
+            <img src="terrace.jpg" width="230" height="230">
+            <span class="showBodyDisplay1">
+                <u>Location</u>: School of Computing / NUS Business
+                School<br>
+                <u>Shuttle Bus</u>: A1/2, B, D1<br>
+                <br>
+                <u>Operation hours</u>:<br>
+                Mon - Fri 7.30am to 4.00pm<br>
+                Sat 7.30am to 3.00pm<br>
+                <br>
+                <u>Stalls</u>:<br>
+                
+                <ul>
+                    <li>Vietnamese Cuisine</li>
+                    <li>Hainanese Chicken Rice</li>
+                    <li>Fruits and Juices</li>
+                    <li>Mixed Vegetable Rice</li>
+                    <li>Western Food</li>
+                    <li>Korean Cuisine</li>
+                    <li>Qiu Yin Ban Mian</li>
+                    <li>AZA Muslim Food</li>
+                
+                </ul>      
+                
+            </span>
+        </span>
+    </a>
+ 
+    <!--This is a comment. Popup4 @ Frontier-->
+    <a class="popup4">
+        <img src="location2.png" width="20" height="50" alt="symbol">
+        <span class="showDisplay1">
+        Frontier
+            <img src="frontier.jpg" width="230" height="230">
+            <span class="showBodyDisplay1">
+                <u>Location</u>: 
+                Faculty of Science<br>
+                <u>Shuttle Bus</u>: A1/2/1E/2E, C, D2<br>
+                <br>
+                <u>Operation hours</u>:<br>
+                Mon-Fri 7.30am to 4.00pm<br>
+                Sat 7.30am to 3.00pm<br>
+                <br>
+                <u>Stalls</u>:<br>
+                
+                <ul>
+                    <li>Yummy Chicken Rice</li>
+                    <li>Chinese Noodles</li>
+                    <li>Uncle Penyet Indonesian Panggang</li>
+                    <li>Drinks and Snacks Corner</li>
+                    <li>Western Food</li>
+                </ul>
+                
+            </span>
+        </span>
+    </a>
+    
+    <!--This is a comment. Popup5 @ Koufu(Utown)-->
+    <a class="popup5">
+        <img src="location2.png" width="20" height="50" alt="symbol">
+        <span class="showDisplay1">
+        Koufu Foodcourt
+            <img src="koufu.jpg" width="230" height="230">
+            <span class="showBodyDisplay1">
+                <u>Location</u>: 
+                Town Plaza<br>
+                <u>Shuttle Bus</u>: D1/2, UT-CLB, UT-FoS<br>
+                <br>
+                <u>Operation hours</u>:<br>
+                Mon-Fri 7.00am to 10.00pm<br>
+                Sat & Sun 10.00am to 10.00pm<br>
+                <br>
+                <u>Stalls</u>:<br>
+                
+                <ul>
+                    <li>Noodle House</li>
+                    <li>Yong Tau Foo</li>
+                    <li>Fruits & Dessert</li>
+                    <li>Drinks & Dim Sum</li>
+                    <li>Mixed Veg Rice</li>
+                    <li>Ayam Penyet</li>
+                    <li>Halal Western</li>
+                    <li>Mala Xiang Guo</li>
+                    <li>Salad & Pasta</li>
+                </ul>
+                
+            </span>
+        </span>
+    </a>
+    
+    <!--This is a comment. Popup6 @ Central Square(YIH) -->
+    <a class="popup6">
+        <img src="location2.png" width="20" height="50" alt="symbol">
+        <span class="showDisplay1">
+        Central Square
+            <img src="YIH.jpg" width="230" height="230">
+            <span class="showBodyDisplay1">
+                <u>Location</u>: 
+                Yusof Ishak House<br>
+                <u>Shuttle Bus</u>: A1/2/1E, B1, BTC1, C, D1/2<br>
+                <br>
+                <u>Operation hours</u>:<br>
+                Mon-Fri 7.30am to 8.00pm<br>
+                Sat 7.30am to 3.00pm<br>
+                <br>
+                <u>Stalls</u>:<br>
+                
+                <ul>
+                    <li>Thai Cuisine</li>
+                    <li>Yong Tau Foo & Laksa</li>
+                    <li>Mixed Vegetable Rice</li>
+                    <li>Ban Mian & Fish Soup</li>
+                    <li>Korean Cuisine</li>
+                    <li>Drinks & Snacks</li>
+                    <li>Fruit & Juices</li>
+                    <li>Indian Cooked Food</li>
+
+                </ul>
+                
+            </span>
+        </span>
+    </a>
+
+     <!--This is a comment. Popup7 @ The Deck -->
+    <a class="popup7">
+        <img src="location2.png" width="20" height="50" alt="symbol">
+        <span class="showDisplay1">
+        The Deck
+            <img src="deck.jpg" width="230" height="230">
+            <span class="showBodyDisplay1">
+                <u>Location</u>: 
+                Facult of Arts & Social Sciences<br>
+                <u>Shuttle Bus</u>: A1/2, BTC1, D1<br>
+                <br>
+                <u>Operation hours</u>:<br>
+                Mon-Fri 7.30am to 4.00pm<br>
+                Sat 7.30am to 3.00pm<br>
+                <br>
+                <u>Stalls</u>:<br>
+                
+                <ul>
+                    <li>Drinks & Snacks</li>
+                    <li>Indonesian Express</li>
+                    <li>Yong Tau Foo & Laksa</li>
+                    <li>Noodle</li>
+                    <li>Japanese</li>
+                    <li>Indian</li>
+                    <li>Muslim</li>
+                    <li>Western</li>
+                    <li>Claypot Seafood Soup</li>
+                    <li>Sin Kee Chicken Rice</li>
+                    <li>Fresh Fruits & Juices</li>
+                    <li>Vegeterian</li>
+                    <li>Liang Ban Kung Fu</li>
+                    <li>Snacks & Fried Kway Teow</li>
+                    <li>Chinese Cooked Food</li>
+
+                </ul>
+                
+            </span>
+        </span>
+    </a>
+    
+        <!--This is a comment. Green popup 1 @ MacDonalds -->
+    <a class="popup8">
+        <img src="location3.png" width="20" height="50" alt="symbol">
+        <span class="showDisplay1">
+        McDonald's Restaurant
+            <img src="mcdonald.jpg" width="230" height="230">
+            <span class="showBodyDisplay1">
+                <u>Location</u>: 
+                Engineering Annexe<br>
+                <u>Shuttle Bus</u>: A1/2, BTC1, D1<br>
+                <br>
+                <u>Operation hours</u>:<br>
+                Mon-Fri 8.00am to 11.00pm<br>
+                Sat-Sun 8.00am to 9.00pm<br>
+                <br>
+                <u>Seating Capacity</u>: 146<br>
+                
+            </span>
+        </span>
+    </a>
+   
+    
+    <!--This is a comment. Green popup 2 @ Maki-San -->
+    <a class="popup9">
+        <img src="location3.png" width="20" height="50" alt="symbol">
+        <span class="showDisplay1">
+        Maki-San Mobile Cart
+            <img src="Makisan.JPG" width="230" height="230">
+            <span class="showBodyDisplay1">
+                <u>Location</u>: 
+                LT 25<br>
+                <u>Shuttle Bus</u>: A1/2/1E/2E, C, D2<br>
+                <br>
+                <u>Operation hours</u>:<br>
+                Mon-Fri 11.00am to 6.00pm<br>
+                Weekends & PH Closed<br>
+                <br>
+                <u>Seating Capacity</u>: -<br>
+                
+            </span>
+        </span>
+    </a>
+    
+    <!--This is a comment. Green popup 3 @ Platypus Food Bar -->
+    <a class="popup10">
+        <img src="location3.png" width="20" height="50" alt="symbol">
+        <span class="showDisplay1">
+        Platypus Food Bar
+            <img src="Platypus%20Food%20Bar.jpg" width="230" height="230">
+            <span class="showBodyDisplay1">
+                <u>Location</u>: 
+                Science Blk S16<br>
+                <u>Shuttle Bus</u>: A1/2/1E/2E, C, D2<br>
+                <br>
+                <u>Operation hours</u>:<br>
+                Mon-Fri 8.30am to 8.00pmpm<br>
+                Sat 8.30am to 2.00pm<br>
+                <br>
+                <u>Seating Capacity</u>: 100<br>
+                
+            </span>
+        </span>
+    </a>
+    
+    <!--This is a comment. Green popup 4 @ Hwang’s Korean Restaurant -->
+    <a class="popup11">
+        <img src="location3.png" width="20" height="50" alt="symbol">
+        <span class="showDisplay1">
+        Hwangs Korean Restaurant
+            <img src="Hwangs@utown.jpg" width="230" height="230">
+            <span class="showBodyDisplay1">
+                <u>Location</u>: 
+                Town Plaza<br>
+                <u>Shuttle Bus</u>: D1/2, UT-CLB, UT-FoS<br>
+                <br>
+                <u>Operation hours</u>:<br>
+                Mon -Sat 10.00am to 10.00pm<br>
+                <br>
+                <u>Seating Capacity</u>: 114<br>
+                
+            </span>
+        </span>
+    </a>
+        
+          <!--This is a comment. Green popup 5 @ Starbucks -->
+    <a class="popup17">
+        <img src="location3.png" width="20" height="50" alt="symbol">
+        <span class="showDisplay1">
+        Starbucks
+            <img src="starbucks.jpg" width="230" height="230">
+            <span class="showBodyDisplay1">
+                <u>Location</u>: 
+                Education Resource Centre<br>
+                <u>Shuttle Bus</u>: D1/2, UT-CLB, UT-FoS<br>
+                <br>
+                <u>Operation hours</u>:<br>
+                Mon -Sat 10.00am to 10.00pm<br>
+                <br>
+                <u>Seating Capacity</u>: 114<br>
+                
+            </span>
+        </span>
+    </a>
+        
+                <!--This is a comment. Green popup 6 @ Subway UTown -->
+    <a class="popup18">
+        <img src="location3.png" width="20" height="50" alt="symbol">
+        <span class="showDisplay1">
+        Subway
+            <img src="subway1.jpg" width="230" height="230">
+            <span class="showBodyDisplay1">
+                <u>Location</u>: 
+                Town Plaza<br>
+                <u>Shuttle Bus</u>: D1/2, UT-CLB, UT-FoS<br>
+                <br>
+                <u>Operation hours</u>:<br>
+                Mon -Sat 10.00am to 10.00pm<br>
+                Sun 10.00am to 9.00pm<br>
+                <br>
+                <u>Seating Capacity</u>: 73<br>
+                
+            </span>
+        </span>
+    </a>
+        
+                <!--This is a comment. Green popup 7 @ Subway YIH -->
+    <a class="popup19">
+        <img src="location3.png" width="20" height="50" alt="symbol">
+        <span class="showDisplay1">
+        Subway
+            <img src="subway2.jpg" width="230" height="230">
+            <span class="showBodyDisplay1">
+                <u>Location</u>: 
+                Yusof Ishak House<br>
+                <u>Shuttle Bus</u>:  A1/2/1E, B1, BTC1, C, D1/2<br>
+                <br>
+                <u>Operation hours</u>:<br>
+                Daily 8.00am to 8.00pm<br>
+                                <br>
+                <u>Seating Capacity</u>: -<br>
+            </span>
+        </span>
+    </a>          
+        
+        <!--This is a comment. Green popup 8 @ The Spread -->
+    <a class="popup20">
+        <img src="location3.png" width="20" height="50" alt="symbol">
+        <span class="showDisplay1">
+        The Spread
+            <img src="thespread.jpg" width="230" height="230">
+            <span class="showBodyDisplay1">
+                <u>Location</u>: 
+                Mochtar Riady Building<br>
+                <u>Shuttle Bus</u>:  A1/2, B, D1<br>
+                <br>
+                <u>Operation hours</u>:<br>
+                Mon - Fri 7.45am to 8.45pm<br>
+                Sat 8.00am to 2.30pm
+                <br>
+                <u>Seating Capacity</u>: 100<br>
+                
+            </span>
+        </span>
+    </a>
+        
+              <!--This is a comment. Green popup 9 @ The Good News Cafe -->
+    <a class="popup21">
+        <img src="location3.png" width="20" height="50" alt="symbol">
+        <span class="showDisplay1">
+        The Good News Cafe
+            <img src="the-good-news-cafe.jpg" width="230" height="230">
+            <span class="showBodyDisplay1">
+                <u>Location</u>: 
+                Ventus<br>
+                <u>Shuttle Bus</u>:  A2/2E, B, D1<br>
+                <br>
+                <u>Operation hours</u>:<br>
+                Mon - Fri 7.30am to 6.30pm<br>
+                <br>
+                <u>Seating Capacity</u>: -<br>
+            </span>
+        </span>
+    </a>
+        
+                   <!--This is a comment. Green popup 10 @ Sapore -->
+    <a class="popup22">
+        <img src="location3.png" width="20" height="50" alt="symbol">
+        <span class="showDisplay1">
+        Sapore Italian Restaurant
+            <img src="sapore.jpg" width="230" height="230">
+            <span class="showBodyDisplay1">
+                <u>Location</u>: 
+                Town Plaza<br>
+                <u>Shuttle Bus</u>:  D1/2, UT-CLB, UT-FoS<br>
+                <br>
+                <u>Operation hours</u>:<br>
+                Daily 11.00am to 10.00pm<br>
+                <br>
+                <u>Seating Capacity</u>: 122<br>
+                
+            </span>
+        </span>
+    </a>
+        
+    <!--This is a comment. Bus popup 1 @ Utown -->
+    <a class="popup12">
+        <img src="busstopmarker.png" width="50" height="50" alt="symbol">
+        <span class="showDisplay1">
+        Shuttle Bus Stop
+            <img src="nusbus.jpg" width="230" height="230">
+            <span class="showBodyDisplay1">
+                <u>Location</u>: 
+                University Town<br>
+                <u>Shuttle Bus</u>: D1/2, UT-CLB, UT-FoS<br>
+            </span>
+        </span>
+    </a>
+     
+     <!--This is a comment. Bus popup 2 @ YIH -->
+    <a class="popup13">
+        <img src="busstopmarker.png" width="50" height="50" alt="symbol">
+        <span class="showDisplay1">
+        Shuttle Bus Stop
+            <img src="nusbus.jpg" width="230" height="230">
+            <span class="showBodyDisplay1">
+                <u>Location</u>: 
+                Yusof Ishak House<br>
+                <u>Shuttle Bus</u>: A1, B, D1, BTC1<br>
+            </span>
+        </span>
+    </a>
+    
+      <!--This is a comment. Bus popup 3 @ Faculty of Science -->
+    <a class="popup14">
+        <img src="busstopmarker.png" width="50" height="50" alt="symbol">
+        <span class="showDisplay1">
+        Shuttle Bus Stop
+            <img src="nusbus.jpg" width="230" height="230">
+            <span class="showBodyDisplay1">
+                <u>Location</u>: 
+                Faculty of Science<br>
+                <u>Shuttle Bus</u>: A1/E, C, FOS-UT, D2<br>
+            </span>
+        </span>
+    </a>
+    
+      <!--This is a comment. Bus popup 4 @ SOC -->
+    <a class="popup15">
+        <img src="busstopmarker.png" width="50" height="50" alt="symbol">
+        <span class="showDisplay1">
+        Shuttle Bus Stop
+            <img src="nusbus.jpg" width="230" height="230">
+            <span class="showBodyDisplay1">
+                <u>Location</u>: 
+                School of Computing<br>
+                <u>Shuttle Bus</u>: A1/2, B, D1<br>
+            </span>
+        </span>
+    </a>
+    
+      <!--This is a comment. Bus popup 5 @ Computer Centre -->
+    <a class="popup16">
+        <img src="busstopmarker.png" width="50" height="50" alt="symbol">
+        <span class="showDisplay1">
+        Shuttle Bus Stop
+            <img src="nusbus.jpg" width="230" height="230">
+            <span class="showBodyDisplay1">
+                <u>Location</u>: 
+                Computer Centre<br>
+                <u>Shuttle Bus</u>: A2/E, B, D1<br>
+            </span>
+        </span>
+    </a>
+        
+        
+        
+        
+        
+          </span>
+   
+<!--          DIV FOR NUSMAP -->
+          <div id="nusmap">  
+          </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
+        </div>
+    </div>
+  </div>
+</div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  </body>
+</html>
