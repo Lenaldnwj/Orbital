@@ -14,4 +14,4 @@
  Framework used:
  * Bootstrap
 
-![image](C:\Users\User\Desktop\markdown2.png)
+![image of project](https://github.com/Lenaldnwj/Orbital-NUS-Interactive-Food-Map/blob/master/markdown2.png)
