@@ -13,3 +13,5 @@
 
  Framework used:
  * Bootstrap
+
+![Picture of the project](C:\Users\User\Desktop\markdown2.png)
